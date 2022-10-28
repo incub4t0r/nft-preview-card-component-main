@@ -7,7 +7,7 @@ import avatar from './images/image-avatar.png';
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <card>
           <cardImage>
             <img src={nft} alt="nft" />
@@ -36,7 +36,7 @@ export default function App() {
             </cardCreator>
           </cardContent>
         </card>
-      </header>
+      </div>
     </div>
   );
 }
